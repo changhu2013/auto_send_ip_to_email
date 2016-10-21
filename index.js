@@ -2,7 +2,7 @@ var nodemailer = require('nodemailer');
 var transporter = nodemailer.createTransport('smtps://o52tiger%40163.com:Cp1y01m04D@smtp.163.com');
 
 var ip_list = require('./ip_list');
-var text = "IP:" + ip_list.join(' \n');
+var text = "TIME:" + new Date() + " \nIP:\n" + ip_list.join(' \n');
 
 var mailOptions = {
     from: 'o52tiger@163.com',
