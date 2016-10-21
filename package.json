@@ -1,0 +1,10 @@
+{
+  "name": "test_email",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "changhu",
+  "license": "MIT",
+  "dependencies": {
+    "nodemailer": "^2.6.4"
+  }
+}
