@@ -27,9 +27,12 @@ function send_email(){
             + "IP   :\n"
             + ip_list.join(' \n');
 
+    text = text + "\n changhu/changhu";
+    text = text + "\n pi/changhu";
+
     var mailOptions = {
         from    : 'o52tiger@163.com',
-        to      : 'o52tiger@qq.com',
+        to      : 'changhu@wulianshuntong.com',
         subject : '树莓派IP地址',
         text    : text
     };
